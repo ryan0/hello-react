@@ -20,9 +20,8 @@ const NoteBoardInput = ({ notes, setNotes }) => {
 
 
     const handleNoteChange = (event) => {
-        console.log(event.target.value);
         setNewNote(event.target.value);
-    }
+    };
 
     return (
         <form onSubmit={addNote}>
